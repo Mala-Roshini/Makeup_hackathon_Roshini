@@ -1,0 +1,103 @@
+.body{
+    
+}
+.first_nav {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 0%;
+    padding-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0;
+    list-style: none;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: center;
+    /* background-color: rgb(240, 146, 208); */
+    height: 40px;
+  }
+  
+
+
+  .second_nav{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background-color: rgb(244,187,255);
+    height: 40px;
+  }
+
+.firstNav_class{
+  width: 140px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: rgb(240, 146, 208);
+  margin-left: 20px;
+}
+.secNav_class{
+  margin-left: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
+}
+#search_bar{
+  width: 190px;
+  height: 30px;
+}
+.secondNav{
+  background-color: rgb(199, 43, 34);
+}
+.card-div {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.89);
+    border-radius: 0.25rem;
+    height: 300px;
+    width: 300px;
+  }
+
+.imgClass{
+  width: 240px;
+  height: 300px;
+  border-radius: 12px;
+}
+.card_group{
+    display: grid;
+    width: 100%;
+    height: 75%;  
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    /* row-gap: 10px; */
+    margin-left: 20px;
+    margin-top: 70px;
+    /* border: 2px solid black; */
+}
+/* .sub_card{
+  display: grid;
+  width: 40px;
+  height: 250px;
+  border: 1px solid black;
+} */
+
+.sub_card{
+  height: 440px;
+  width: 240px;
+  display: grid;
+  grid-template-rows: 300px 20px 20px 20px 20px 20px;
+  text-align: center;
+  border: 20p;
+  border-color: blueviolet;
+}
